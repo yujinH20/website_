@@ -1,0 +1,137 @@
+/* 21961129 허유진 */
+section#right {
+    width:750px;
+    float:right;
+    margin-top:10px;
+}
+section#right #summary h3 {
+    font-size:16px;
+    padding-bottom:8px;
+    border-bottom:solid 1px #cccccc;
+}
+section#right #summary h3 span {
+    color:#00bfff;
+    margin-right: 10px;
+}
+section#right #summary1 {
+    float:left;
+    margin-top:20px;
+}
+section#right #summary1 .buttons {
+    text-align:center;
+    margin-top:10px;
+}
+section#right #summary2 {
+    width:320px;
+    float:right;
+    margin-top:20px;
+}
+section#right #summary2 .item {
+    margin:20px 0 0 0;
+    padding-bottom:20px;
+    border-bottom:solid 1px #cccccc;
+}
+section#right #summary2 .item li {
+    margin:10px 0 0 0;
+}
+section#right #summary2 .col1 {
+    width:100px;
+    float:left;
+}
+section#right #summary2 .col2 {
+    width:200px;
+    float:left;
+}
+section#right #summary2 .col2 input {
+    width:220px;
+    border:solid 1px #00BFFF;
+}
+section#right #summary2 .col2 select {
+    width:222px;
+    height:18px;
+    border:solid 1px #00BFFF;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:12px;
+    color:#444444;
+}
+section#right #summary2 .size  {
+    margin:20px 0 0 0;
+    padding-bottom:10px;
+    border-bottom:solid 1px #cccccc;
+}
+section#right #summary2 .size input {
+    width:196px;
+    border:solid 1px #00BFFF;
+}
+section#right #summary2 .size .col2 {
+    width:220px;
+    float:left;
+}
+section#right #summary2 .size li {
+    margin:5px 0;
+}
+section#right #summary2 .buttons {
+    margin:24px 0 0 0;
+}
+section#right #summary2 .buttons li {
+    display:inline;
+}
+section#right #summary2 .buttons .right {
+    margin-left:16px;
+}
+section#right #explanation h3 {
+    font-size:16px;
+    padding-bottom:8px;
+    margin-top:30px;
+    border-bottom:solid 1px #cccccc;
+    color:#00bfff;
+}
+section#right #explanation h2 {
+    margin:20px 0 0 0;
+}
+section#right #explanation_box {
+    width:750px;
+    height:200px;
+    margin:20px 0 0 0;
+    border:solid 1px #cccccc;
+}
+section#right #explanation_box ul {
+    padding:5px 0 0 20px;
+    font-size:14px;
+}
+section#right #explanation_box li {
+    width:690px;
+    padding:8px;
+    border-bottom:solid 1px #cccccc;
+}
+section#right #explanation_box .col1 {
+    float:left;
+    width:80px;
+    font-weight:bold;
+}
+section#right #explanation_box .col2 {
+    float:left;
+}
+section#right #explanation_box .col2 span {
+    color:#00bfff;
+    font-weight:bold;
+}
+section#right #required h3 {
+    font-size:16px;
+    padding-bottom:8px;
+    margin-top:30px;
+    border-bottom:solid 1px #cccccc;
+    color:#00bfff;
+}
+section#right #required dl {
+    margin:20px 0 0 0;
+}
+section#right #required dt {
+    font-size:14px;
+    font-weight:bold;
+    margin-top:20px;
+}
+section#right #required dd {
+    font-size:13px;
+    margin:5px 0 0 20px;
+}

@@ -1,0 +1,129 @@
+/* 21961129 허유진 */
+section#right {
+    width:750px;
+    float:right;
+    margin-top:10px;
+}
+section#right h3#cart_title {
+  font-size:16px;
+    padding:0 0 5px 0;
+    border-bottom:solid 1px #000000;
+}
+section#right h3#cart_title span {
+    color:#00bfff;
+    margin-right: 10px;
+}
+section#right #process {
+    margin:15px 0 0 0;
+}
+section#right table {
+    width:100%;
+    margin:10px 0 0 0;
+    border-collapse:collapse;
+    border:solid 1px #cccccc;
+}
+section#right tr.title {
+    height:50px;
+    color:#00bfff;
+    font-weight:bold;
+}
+section#right th {
+    padding:10px;
+    border-bottom:solid 1px #cccccc;
+}
+section#right tr.items {
+    height:80px;
+    border-bottom:solid 1px #cccccc;
+}
+section#right tr.items td {
+    padding:5px;
+    border-bottom:solid 1px #cccccc;
+}
+section#right tr.items .col1 {
+    width:50px;
+    text-align:center;
+}
+section#right tr.items .col2 {
+    text-align:center;
+}
+section#right tr.items .col3 {
+    width:60px;
+    text-align:center;
+}
+section#right tr.items .col4 {
+    width:80px;
+    text-align:center;
+}
+section#right tr.items .col4 button {
+    margin:2px 0 0 5px;
+    width:40px;
+    height:16px;
+    background-color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:10px;
+    border:solid 1px black;
+    border-radius:4px;
+}
+section#right tr.items .col5 {
+    width:80px;
+    text-align:center;
+}
+section#right tr.items .col6 {
+    width:80px;
+    text-align:center;
+}
+section#right tr.items .col7 {
+    width:80px;
+    text-align:center;
+}
+section#right tr.total_price {
+    height:25px;
+}
+section#right tr.total_price td {
+    text-align:right;
+    padding:10px;
+}
+section#right tr.order_status_box {
+    height:100px;
+    background-color:#eeeeee;
+    border-top:solid 1px #cccccc;
+}
+section#right .order_status_box td {
+    vertical-align:top;
+}
+section#right .order_status {
+    position:relative;
+}
+section#right .order_status p {
+    position:absolute;
+    top:40px;
+    left:20px;
+}
+section#right .order_status div {
+    position:absolute;
+    top:20px;
+    left:510px;
+}
+section#right .order_status li {
+    display:inline-block;
+    margin:2px 0;
+}
+section#right .order_status .col1 {
+    width:150px;
+    text-align:left;
+}
+section#right .order_status .col2 {
+    width:80px;
+    text-align:left;
+}
+section#right table span {
+    font-weight:bold;
+}
+section#right #order_buttons {
+    margin:20px 0 0 0;
+    text-align:center;
+}
+section#right #order_buttons li {
+    display:inline;
+
+}

@@ -1,0 +1,133 @@
+/* 21961129 허유진 */
+section#cat2 {
+    width:525px;
+    float:left;
+    margin:15px 15px 0 15px;
+}
+section#cat3 {
+    width:220px;
+    float:left;
+    margin-top:15px;
+}
+section#cat3 #latest_notice {
+    width:240px;
+    height:160px;
+    background-image:url("./latest_notice.png");
+    background-repeat:no-repeat;
+}
+section#cat3 #latest_notice ul {
+    padding:40px 0 0 30px;
+    list-style-type:circle;
+}
+section#cat3 #week_event {
+    width:240px;
+    height:190px;
+    margin-top:10px;
+    background-image:url("./week_event.png");
+    background-repeat:no-repeat;
+}
+/*section#cat3 #week_event img {
+    margin:58px 0 0 22px;
+}*/
+
+section#special_shop {
+    width:740px;
+    height:390px;
+    margin-top:20px;
+    float:left;
+    background-image:url("./special_shop.png");
+    background-repeat:no-repeat;
+}
+section#special_shop ul {
+    margin:30px 0 0 20px;
+}
+section#special_shop li {
+    display:inline;
+    margin:0 2px;
+}
+section#special_shop img {
+    padding:5px;
+    margin:34px 10px 0 16px;
+    border: solid 1px #cccccc;
+}
+
+section#special_banner {
+    float:left;
+    margin:20px 0 0 15px;
+}
+section#special_banner div {
+    width:240px;
+    height:106px;
+    margin-bottom:10px;
+}
+section#special_banner #banner1 {
+    background-image:url("./landscape.png");
+    background-repeat:no-repeat;
+}
+section#special_banner #banner2 {
+    background-image:url("./point_wallpaper.png");
+    background-repeat:no-repeat;
+}
+section#special_banner #banner3 {
+    background-image:url("./children.png");
+    background-repeat:no-repeat;
+}
+section#special_banner ul {
+    padding:0px 0 0 132px;
+}
+section#special_banner li {
+    display:inline;
+}
+section#special_banner img {
+    margin:10px 10px 0 0;
+}
+
+section#new {
+    height:650px;
+    /*margin-top:10px;*/
+    border-top:solid 1px #00BFFF;
+}
+section#new h3 {
+    margin:20px 0 0 0;
+}
+section#new h3 span{
+    color:#00BFFF;
+    margin-right: 10px;
+}
+section#new img {
+    width:210px;
+}
+section#new .item{
+    float:left;
+    margin:30px 50px 0 0;
+}
+section#new .item .subject{
+    margin-top:10px;
+    color:#01A9DB;
+}
+section#new .item .comment{
+    margin-top:5px;
+    color:#888888;
+}
+section#new .item .price{
+    margin-top:8px;
+    font-weight:bold;
+    font-size: 15px;
+}
+section#new .right{
+    float:left;
+    margin:30px 0 0 0;
+}
+section#new .right .subject{
+    margin-top:10px;
+    color:#01A9DB;
+}
+section#new .right .comment{
+    margin-top:5px;
+    color:#888888;
+}
+section#new .right .price{
+    margin-top:8px;
+    font-weight:bold;
+    font-size: 15px;
+}

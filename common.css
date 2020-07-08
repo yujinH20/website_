@@ -1,0 +1,201 @@
+/* 21961129 허유진 */
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:12px;
+    color:#444444;
+}
+ul {
+    list-style-type:none;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color:#444444;
+}
+.clear {
+    clear:both;
+}
+
+header {
+    height:130px;
+}
+header #top {
+    width:990px;
+    margin:0 auto;
+
+}
+header #logo {
+    float:left;
+    margin:30px 0 0 10px;
+}
+header #search {
+    float:left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:12px;
+    color:#00BFFF;
+    margin:44px 0 0 30px;
+}
+header #search #search_title {
+    float:left;
+    margin:6px 6px 0 0;
+}
+header #search #search_form {
+    float:left;
+}
+header #search #search_form input {
+    width:430px;
+    height:20px;
+    border:0;
+    border-bottom:solid 1px #00BFFF;
+    margin-left:5px;
+}
+header #search #search_button {
+    float:left;
+    margin:6px 0 0 6px;
+}
+header #top_menu {
+    float:right;
+    margin-top:45px;
+}
+header #top_menu a:link {
+    font-size:11px;
+    color:#888888;
+}
+header #top_menu a:visited {
+    font-size:11px;
+    color:#888888;
+}
+header #top_menu a:hover {
+    font-size:11px;
+    color:#888888;
+    text-decoration: line-through;
+}
+header #top_menu a:active {
+    font-size:11px;
+    color:#00BFFF;
+}
+header #top_menu li.blue a:link {
+    color:#00BFFF;
+}
+header #top_menu li.blue a:visited {
+    color:#00BFFF;
+}
+header #top_menu li.blue a:hover {
+    color:#00BFFF;
+    text-decoration: line-through;
+}
+header #top_menu li.blue a:active {
+    color:#00BFFF;
+}
+header #top_menu li {
+    display:inline;
+    margin-left:6px;
+}
+header #main_menu {
+    height:40px;
+    margin-top:15px;
+    background-color:#00BFFF;
+}
+header #main_menu ul {
+    width:990px;
+    margin:auto;
+    padding-top:11px;
+    text-align:center;
+}
+header #main_menu li {
+    display:inline;
+    margin:0 60px;
+}
+header #main_menu a:link {
+    color:#ffffff;
+}
+header #main_menu a:visited {
+    color:#ffffff;
+}
+header #main_menu a:hover {
+    color:#ffffff;
+    opacity:60%;
+}
+header #main_menu a:active {
+    color:#ffffff;
+    font-weight:bold;
+}
+
+section#main {
+    width:995px;
+    margin:0 auto;
+}
+section#cat1 {
+    width:200px;
+    float:left;
+    margin-top:15px;
+    font-weight:bold;
+}
+section#cat1 #cat_title {
+    padding:12px 0 12px 30px;
+    background-color:#00BFFF;
+    color:#ffffff;
+}
+section#cat1 li {
+    color:#666666;
+    padding:5px 0 5px 30px;
+    border-bottom:solid 1px #cccccc;
+}
+
+footer {
+    height:200px;
+    margin-top:20px;
+}
+footer #footer_menu_box {
+    height:40px;
+    background-color:#00BFFF;
+}
+footer #footer_menu {
+    width:990px;
+    margin:auto;
+}
+footer #footer_menu ul {
+    width:990px;
+    margin:auto;
+    padding-top:11px;
+    text-align:center;
+}
+footer #footer_menu li {
+    display:inline;
+    margin-right:60px;
+    text-align:center;
+}
+footer #footer_menu a:link {
+    color:#ffffff;
+}
+footer #footer_menu a:hover {
+    color:#ffffff;
+    opacity:60%;
+}
+footer #footer_menu a:visited {
+    color:#ffffff;
+}
+footer #footer_menu a:active {
+    color:#ffffff;
+    font-weight:bold;
+}
+footer #footer_box {
+    width:990px;
+    margin:auto;
+}
+footer #footer_box div {
+    float:left;
+}
+footer #footer_box #footer_logo {
+    margin:30px 0 0 0;
+}
+footer #footer_box #address {
+    margin:25px 0 0 84px;
+}
+footer #footer_box #footer_banner {
+    margin:30px 0 0 70px;
+    float:right;
+}

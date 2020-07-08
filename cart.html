@@ -1,0 +1,176 @@
+<!DOCTYPE html><!-- 21961129 허유진 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>홈페이지</title>
+    <link rel="stylesheet" type="text/css" href="./common.css">
+    <link rel="stylesheet" type="text/css" href="./cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section id="top">
+        <a id="logo" href="./index.html"><img src="./logo.png"></a>
+        <div id="search">
+          <div id="search_title">SEARCH</div>
+          <div id="search_form"><input type="text"></div>
+          <div id="search_button"><img src="./btn_search.png"></div>
+        </div>
+        <nav id="top_menu">
+          <ul>
+            <li class="blue"><a href="#">로그인</a></li>
+            <li class="blue"><a href="#">회원가입</a></li>
+            <li><a href="#">마이페이지</a></li>
+            <li><a href="#">이용안내</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </section>
+      <nav id="main_menu">
+        <ul>
+          <li><a href="./detail.html">상세페이지</a></li>
+          <li><a href="./cart.html">장바구니</a></li>
+          <li><a href="#">고객갤러리</a></li>
+          <li><a href="#">주문배송</a></li>
+          <li><a href="#">자주 하는 질문</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="main">
+      <section id="cat1">
+        <div id="cat_title">
+          CATEGORY ITEM
+        </div>
+        <ul>
+          <li>생활 아트</li>
+          <li>캔버스 아트</li>
+          <li>사진 벽지</li>
+          <li>창문형/현관문형</li>
+          <li>포인트 벽지</li>
+          <li>세계지도 벽지</li>
+          <li>어린이방 세계지도</li>
+          <li>족자형 롤스크린</li>
+          <li>맞춤제작 결제창</li>
+        </ul>
+        <div id="customer">
+          <img src="./customer.png">
+        </div>
+      </section>
+
+      <section id="right">
+        <h3 id="cart_title">
+          <span>SHOPPING CART</span> 장바구니
+        </h3>
+        <div id="process">
+          <img src="./process.png">
+        </div>
+
+        <table>
+          <tr class="title">
+            <th>선택</th>
+            <th>상품명</th>
+            <th>판매가</th>
+            <th>수량</th>
+            <th>적립금</th>
+            <th>배송비</th>
+            <th>합계</th>
+          </tr>
+          <tr class="items">
+            <td class="col1"><input type="checkbox"></td>
+            <td class="col2">
+              Gradient blue fluid acrylic pour painting 소
+            </td>
+            <td class="col3">23,000원</td>
+            <td class="col4">
+              <input type="checkbox">
+              <button>수정</button>
+            </td>
+            <td class="col5">230원</td>
+            <td class="col6">3,000원</td>
+            <td class="col7">23,000원</td>
+          </tr>
+          <tr class="items">
+            <td class="col1"><input type="checkbox"></td>
+            <td class="col2">
+              Gradient blue fluid acrylic pour painting 초대
+            </td>
+            <td class="col3">120,000원</td>
+            <td class="col4">
+              <input type="checkbox">
+              <button>수정</button>
+            </td>
+            <td class="col5">1,2000원</td>
+            <td class="col6">3,000원</td>
+            <td class="col7">120,000원</td>
+          </tr>
+          <tr class="total_price">
+            <td colspan="7" >
+              [상품 구매 금액] : 143,000 + [배송비] : 3,000 = [총구매액] : <span>146,000원</span>
+            </td>
+          </tr>
+          <tr class="order_status_box">
+            <td colspan="7">
+              <div class="order_status">
+                <p><span>고객님의 총 주문 합계 금액입니다</span></p>
+                <div>
+                  <ul>
+                    <li class="col1">상품 구매 금액</li>
+                    <li class="col2">143,000원</li>
+                  </ul>
+                  <ul>
+                    <li class="col1">배송비</li>
+                    <li class="col2">3,000원</li>
+                  </ul>
+                  <ul>
+                    <li class="col1"><span>총 주문 합계 금액</span></li>
+                    <li class="col2"><span>146,000원</span></li>
+                  </ul>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <ul id="order_buttons">
+          <li><img src="./order_button1.png"></li>
+          <li><img src="./order_button2.png"></li>
+          <li><img src="./order_button3.png"></li>
+          <li><img src="./order_button4.png"></li>
+          <li><img src="./order_button5.png"></li>
+          <li><img src="./order_button6.png"></li>
+        </ul>
+      </section>
+
+      <div class="clear"></div>
+
+    </section>
+
+    <footer>
+      <section id="footer_menu_box">
+        <nav id="footer_menu">
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">이용안내</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="#">주문조회</a></li>
+            <li><a href="#">적립금</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보보호정책</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="footer_box">
+        <div id="footer_logo">
+          <img src="./logo.png">
+        </div>
+        <div id="address">
+          <img src="./address.png">
+        </div>
+        <div id="footer_banner">
+          <img src="./footer_banner_01.png">
+        </div>
+      </section>
+    </footer>
+    </body>
+    </html>
